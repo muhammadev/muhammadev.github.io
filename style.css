@@ -1,67 +1,10 @@
 * {
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: monospace;
 }
 
-.home {
-    background: url('background.jpg') center center no-repeat;
-    background-size: cover;
-    width:100%; height:100vh;
-}
-
-.home .gray-layout{
-    position: absolute;
-    top:0; left:0;
-    width:100%; height:100%;
-    background:#333;
-    opacity: .8;
-}
-
-nav {
-    /* border-bottom: 1px solid #fff; */
-}
-
-.navbar-brand{
-    font-family: 'Caveat', cursive;
-    font-size: 30px;
-}
-
-.nav-item {
-    position: relative;
-}
-
-.nav-item a {
-    color: #fff;
-    padding-bottom: 10px;
-    font-size: 20px;
-}
-
-.nav-item a:hover {
-    color: #fff;
-}
-
-.nav-item a::before{
-    content: "";
-    position: absolute;
-    width: 100%; height: 2px;
-    background: #fff;
-    color: #fff;
-    bottom: -10px;
-    left: 0;
-    transition: .3s;
-    opacity: 0;
-}
-
-
-nav .nav-item:hover a::before{
-    bottom: 0;
-    opacity: 1;
-}
-
-#introduction {
-    width:100%; height: 100vh;
-    border-bottom: 1px solid #fff;
-}
-
-#introduction h1 {
-    letter-spacing: 1.5vw;
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
